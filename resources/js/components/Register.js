@@ -104,7 +104,3 @@ const Register = (props) => {
     );
 }
 export default Register;
-if(document.getElementById( 'react-login' ))
-{
-    ReactDOM.render(<Register />, document.getElementById('react-login'));
-}

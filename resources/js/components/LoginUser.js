@@ -104,8 +104,4 @@ const LoginUser = () => {
     )
 }
 
-export default LoginUser ;
-if(document.getElementById( 'react-login' ))
-{
-    ReactDOM.render(<LoginUser />, document.getElementById('react-login'));
-}
+export default LoginUser;
