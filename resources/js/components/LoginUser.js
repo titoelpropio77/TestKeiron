@@ -1,5 +1,5 @@
 import React from 'react';
-import ReactDOM from 'react-DOM'
+import ReactDOM from 'react-dom'
 import useTools from '../tools'
 import config from '../config'
 import Register from './Register'
@@ -47,9 +47,6 @@ const LoginUser = () => {
        );
     //    console.log( response );
     }
-   function handleClick(){
-       history.push( "/Register" );
-   }
     return (
         <div className="card-body login-card-body">
           <p className="login-box-msg">Inicia sesión para comenzar</p>
@@ -87,7 +84,7 @@ const LoginUser = () => {
                 </div>
             </form>
             <p className="mb-0">
-                <a href="Register" class="text-center">Register Nuevo Usuario</a>
+                <Link to='/Register' class="text-center">Register Nuevo Usuario</Link>
                 {/* <button onClick={ handleClick }>Registrame</button> */}
                 {/* <Router>
                   <Link to="/Register">Registrar Nuevo Usuario</Link>

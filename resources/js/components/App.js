@@ -1,6 +1,7 @@
-import Login from './Login';
+import Login from './LoginUser';
 import Register from './Register';
 import * as ReactRouter from 'react-router-dom';
+import React from 'react';
 
 /**
  * Componente para la aplicación
@@ -11,7 +12,7 @@ import * as ReactRouter from 'react-router-dom';
 export default function App(props){
  return (
   <ReactRouter.Switch>
-   <ReactRouter.Route path='/' exact component={Login}/>
+   <ReactRouter.Route path='/:path(login)?' exact component={Login}/>
    <ReactRouter.Route path='/register' component={Register}/>
   </ReactRouter.Switch>
  );

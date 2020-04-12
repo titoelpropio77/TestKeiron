@@ -29556,10 +29556,6 @@ var Register = function Register(props) {
 
 /* harmony default export */ __webpack_exports__["default"] = (Register);
 
-if (document.getElementById('react-login')) {
-  react_DOM__WEBPACK_IMPORTED_MODULE_2___default.a.render( /*#__PURE__*/react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(Register, null), document.getElementById('react-login'));
-}
-
 /***/ }),
 
 /***/ "./resources/js/tools.js":
@@ -29628,7 +29624,7 @@ var useTools = function useTools(initialValues, callback) {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! E:\htdocs2\workspace\TestKeiron\resources\js\components\Register.js */"./resources/js/components/Register.js");
+module.exports = __webpack_require__(/*! C:\application\TestKeiron\resources\js\components\Register.js */"./resources/js/components/Register.js");
 
 
 /***/ })

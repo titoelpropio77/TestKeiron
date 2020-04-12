@@ -48,10 +48,10 @@
 <!-- AdminLTE App -->
 <script src="{{asset('plugins/admLte/js/adminlte.js')}}"></script>
 <script> 
-    var csrf_token = '<?php echo csrf_token(); ?>'; 
+    var csrf_token = window.csrf_token = '{{ csrf_token() }}';
 </script>
 <!-- <script src="{{asset('js/LoginUser.js')}}"></script> -->
-<script src="{{asset('js/LoginUser.js')}}"></script>
+<script src="{{asset('js/app.js')}}"></script>
 
 </body>
 </html>
